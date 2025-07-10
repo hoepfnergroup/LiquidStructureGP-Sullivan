@@ -25,3 +25,5 @@ The repository is organized by **material type** (e.g., `Argon/`, `H2O/`), with 
 
 The primary implementation of the Gaussian process Fourier transform framework is contained in:
 `gptransform.py`
+
+Please reach out if you want to use this method and have any questions. We are happy to help.
