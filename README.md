@@ -18,12 +18,11 @@ We present a nonparametric Bayesian framework to infer radial distribution funct
 
 The repository is organized by **material type** (e.g., `Argon/`, `H2O/`), with subfolders further separated into:
 
-- `experimental/`: Experimental dataset analyis
-- `simulated/`: Simulated dataset analysis
+- `Experimental/`: Experimental dataset analyis
+- `Simulated/`: Simulated dataset analysis
 
 ## Core Code
 
-The primary implementation of the Gaussian process Fourier transform framework is contained in:
-`gptransform.py`
+The primary implementation of the Gaussian process Fourier transform framework is contained in `gptransform.py`. Each notebook utilizes the LMLH function in tandem with PyTorch optimizers to train the GP hyperparameters. The resulting GPs are then used to perform uncertainity quantification on the real space liquid structure, coordination number, and structure factor.
 
 Please reach out if you want to use this method and have any questions. We are happy to help.
