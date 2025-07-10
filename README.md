@@ -25,4 +25,6 @@ The repository is organized by **material type** (e.g., `Argon/`, `H2O/`), with 
 
 The primary implementation of the Gaussian process Fourier transform framework is contained in `gptransform.py`. Each notebook utilizes the LMLH function in tandem with PyTorch optimizers to train the GP hyperparameters. The resulting GPs are then used to perform uncertainity quantification on the real space liquid structure, coordination number, and structure factor.
 
+The only required packages should be `numpy`, `scipy`, `torch`, `matplotlib`, and `pandas`. These are fairly ubiquitous so most installation methods should work. Use whichever you prefer. 
+
 Please reach out if you want to use this method and have any questions. We are happy to help.
