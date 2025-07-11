@@ -1,6 +1,6 @@
 # LiquidStructureGP-Sullivan
 
-[![arXiv](https://img.shields.io/badge/arXiv-2410.17270-b31b1b.svg)](https://arxiv.org/abs/2507.07948)
+[![arXiv](https://img.shields.io/badge/arXiv-2507.07948-b31b1b.svg)](https://arxiv.org/abs/2507.07948)
 
 Reference material for "Physics-Informed Gaussian Process Inference of Liquid Structure from Scattering Data" by Sullivan, Shanks, Cervenka and Hoepfner (2025)
 
