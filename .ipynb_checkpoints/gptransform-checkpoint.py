@@ -230,10 +230,10 @@ class GP(nn.Module):
 
     def K_rq(self,r1,r2,q2,adjust=True):
         Kdd = self.K(r1,r2,self.theta[0],self.theta[1],self.theta[2],self.theta[3],self.theta[4])
-        Kqr = rdf2sq_batch(r2, Kdd, q2, self.rho)
+        Krq = rdf2sq_batch(r2, Kdd, q2, self.rho)
         if adjust:
-            return self.nearestPD(Kqr.T)
-        return Kqr
+            return self.nearestPD(Krq)
+        return Krq
 
     def K_qq(self,r1,r2,q1,q2,adjust=True):
         # Kdd = self.K(r1,r2,self.theta[0],self.theta[1],self.theta[2],self.theta[3],self.theta[4])
